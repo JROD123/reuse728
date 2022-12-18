@@ -30,7 +30,7 @@ text-decoration: none;
   height:41px;
   line-height:50px;
   margin-left: 54px;
-  margin-bottom: -2px;
+  margin-bottom: -22px;
   font-size:42px;
   text-transform:uppercase;
   overflow:hidden;
@@ -81,4 +81,10 @@ text-decoration: none;
   font-size: 19px;
   letter-spacing: 2px;
   color: purple;
+}
+
+@media screen and (min-width: 950px) {
+  .inner{
+    margin-bottom: -18px;
+  }
 }
